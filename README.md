@@ -1,8 +1,6 @@
-# Project 1: System Inspector
+ System Inspector
 
 Writer: Ankita Khatri 
-University of San Francisco  
-CS 326: Operating Systems  
 
 ## About This Project
 This project is a C program that grabs information on your operating system from the proc file directory. You can access system information, hardware information, task information, and a see a live view of your load average, cpu usage, and memory usage.
@@ -70,19 +68,4 @@ Tasks Running: 109
     4 |         idle |                rcu_par_gp |            root |     1 
     6 |         idle |                 kworker/0 |            root |     1 
     8 |         idle |              mm_percpu_wq |            root |     1 
-```
-
-## Testing
-
-To execute the test cases, use `make test`. To pull in updated test cases, run `make testupdate`. You can also run a specific test case instead of all of them:
-
-```
-# Run all test cases:
-make test
-
-# Run a specific test case:
-make test run=4
-
-# Run a few specific test cases (4, 8, and 12 in this case):
-make test run='4 8 12'
 ```
